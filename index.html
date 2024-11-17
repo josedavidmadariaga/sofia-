@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amidas y Nitrilos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="amina2.jpg">
+</head>
+<body>
+
+<header class="bg-dark text-white text-center p-4">
+    <h1>Amidas y Nitrilos</h1>
+    <p>Todo lo que necesitas saber sobre estos compuestos químicos</p>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#definiciones">Definiciones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#propiedades">Propiedades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sintesis">Síntesis</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#aplicaciones">Aplicaciones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ejercicios">Ejercicios</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section id="inicio" class="p-5 bg-light text-center">
+    <div class="container">
+        <h2 class="mb-4">Bienvenido a la Página de Amidas y Nitrilos</h2>
+        <p>Descubre las características, propiedades y aplicaciones de estos compuestos esenciales en química.</p>
+        <img src="amina2.jpg" alt="Amidas y Nitrilos" class="img-fluid rounded">
+        
+    </div>
+    <video width="300px" controls>
+        <source src="1.mp4" >
+    </video>
+    <video width="300px" controls>
+        <source src="2.mp4" >
+    </video>
+</section>
+
+<section id="definiciones" class="p-5 text-center">
+    <div class="container">
+        <h2 class="mb-4">Definiciones</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h3 class="card-title">¿Qué son las Amidas?</h3>
+                        <p class="card-text">Las amidas son compuestos orgánicos que contienen un grupo carbonilo unido a un grupo amino (RCONH₂).</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h3 class="card-title">¿Qué son los Nitrilos?</h3>
+                        <p class="card-text">Los nitrilos contienen un grupo cianuro (-CN) unido a un átomo de carbono, y son importantes en la síntesis de polímeros.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="propiedades" class="p-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Propiedades Físicas y Químicas</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Propiedades de las Amidas</h3>
+                <ul>
+                    <li>Son compuestos polares con puntos de ebullición elevados.</li>
+                    <li>Solubles en agua gracias a la capacidad de formar enlaces de hidrógeno.</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3>Propiedades de los Nitrilos</h3>
+                <ul>
+                    <li>Alta reactividad debido a su triple enlace carbono-nitrógeno.</li>
+                    <li>Usados como intermediarios en la producción de plásticos y productos químicos.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="ejercicios" class="p-5 text-center">
+    <div class="container">
+        <h2>Ejercicios Interactivos</h2>
+        <p>Prueba tus conocimientos con este test interactivo sobre amidas y nitrilos:</p>
+        <button class="btn btn-primary" id="startQuiz">Comenzar Test</button>
+        <div id="quiz" style="display:none;" class="mt-4">
+
+            <!-- Pregunta 1 -->
+            <div class="mb-3">
+                <p>1. ¿Qué son las aminas y los nitrilos, y en qué se diferencian?</p>
+                <input type="radio" id="respuesta1_1" name="pregunta1" value="Correcto"> A. Ambos son compuestos orgánicos con nitrógeno, pero las aminas tienen un grupo amino y los nitrilos un grupo ciano.<br>
+                <input type="radio" id="respuesta1_2" name="pregunta1" value="Incorrecto"> B. Las aminas contienen carbono, pero los nitrilos no.<br>
+                <input type="radio" id="respuesta1_3" name="pregunta1" value="Incorrecto"> C. Las aminas son compuestos aromáticos, mientras que los nitrilos son alifáticos.<br>
+            </div>
+
+            <!-- Pregunta 2 -->
+            <div class="mb-3">
+                <p>2. ¿Cuáles son las principales propiedades físicas y químicas de las aminas y los nitrilos?</p>
+                <input type="radio" id="respuesta2_1" name="pregunta2" value="Incorrecto"> A. Las aminas suelen ser ácidas, mientras que los nitrilos son bases fuertes.<br>
+                <input type="radio" id="respuesta2_2" name="pregunta2" value="Incorrecto"> B. Las aminas tienen olores fuertes, mientras que los nitrilos son generalmente inodoros.<br>
+                <input type="radio" id="respuesta2_3" name="pregunta2" value="Correcto"> C. Las aminas son polares y solubles en agua, y los nitrilos son también polares pero menos solubles.<br>
+            </div>
+
+            <!-- Pregunta 3 -->
+            <div class="mb-3">
+                <p>3. ¿Cómo se clasifican las aminas en primarias, secundarias y terciarias?</p>
+                <input type="radio" id="respuesta3_1" name="pregunta3" value="Correcto"> A. Según el número de grupos hidrocarburos unidos al nitrógeno.<br>
+                <input type="radio" id="respuesta3_2" name="pregunta3" value="Incorrecto"> B. Según el número de átomos de oxígeno en su estructura.<br>
+                <input type="radio" id="respuesta3_3" name="pregunta3" value="Incorrecto"> C. Según su solubilidad en agua.<br>
+            </div>
+
+            <!-- Pregunta 4 -->
+            <div class="mb-3">
+                <p>4. ¿Qué usos tienen las aminas y los nitrilos en la industria y en la vida cotidiana?</p>
+                <input type="radio" id="respuesta4_1" name="pregunta4" value="Correcto"> A. Las aminas se usan en cosméticos y los nitrilos en plásticos y medicamentos.<br>
+                <input type="radio" id="respuesta4_2" name="pregunta4" value="Incorrecto"> B. Las aminas se usan en perfumes y los nitrilos en alimentos.<br>
+                <input type="radio" id="respuesta4_3" name="pregunta4" value="Incorrecto"> C. Ambos se usan únicamente en el área farmacéutica.<br>
+            </div>
+
+            <button class="btn btn-success" onclick="checkAnswer()">Enviar</button>
+            <p id="resultado" class="mt-3"></p>
+        </div>
+    </div>
+</section>
+
+<section id="informacion" class="p-5 bg-light text-center">
+    <div class="container">
+        <h2 class="text-primary">Aminas y Nitrilos: Conceptos Básicos</h2>
+        <p class="text-muted">Las aminas y los nitrilos son compuestos orgánicos que contienen nitrógeno, pero se diferencian en su estructura. Las aminas tienen un grupo amino (-NH2) unido a un carbono, mientras que los nitrilos contienen un grupo ciano (-C≡N). Esta diferencia en los grupos funcionales da a cada compuesto propiedades y usos únicos.</p>
+        
+        <h3 class="text-success">Propiedades de las Aminas y los Nitrilos</h3>
+        <ul class="list-group">
+            <li class="list-group-item">• <strong>Aminas:</strong> Son generalmente polares y muchas son solubles en agua, especialmente las de cadena corta. Algunas tienen olores fuertes y característicos, debido a que su estructura se parece a la de ciertos compuestos olorosos como el amoníaco.</li>
+            <li class="list-group-item">• <strong>Nitrilos:</strong> Son también polares, pero suelen ser menos solubles en agua en comparación con las aminas. Los nitrilos son conocidos por su estabilidad y por ser buenos solventes.</li>
+        </ul>
+
+        <h3 class="text-warning">Clasificación de las Aminas</h3>
+        <ul class="list-group">
+            <li class="list-group-item">• <strong>Primarias:</strong> Un grupo hidrocarburo unido al nitrógeno.</li>
+            <li class="list-group-item">• <strong>Secundarias:</strong> Dos grupos hidrocarburos unidos al nitrógeno.</li>
+            <li class="list-group-item">• <strong>Terciarias:</strong> Tres grupos hidrocarburos unidos al nitrógeno.</li>
+        </ul>
+
+        <h3 class="text-danger">Usos Comunes</h3>
+        <p>• <strong>Aminas:</strong> Son importantes en productos como cosméticos y desinfectantes. Algunas aminas también se encuentran en neurotransmisores, lo que las hace esenciales para funciones en el cuerpo humano.</p>
+        <p>• <strong>Nitrilos:</strong> Se utilizan en la fabricación de plásticos, solventes y ciertos medicamentos. Algunos productos industriales contienen nitrilos por su capacidad para resistir la degradación.</p>
+
+        <h3 class="text-info">Nomenclatura según la IUPAC</h3>
+        <ul class="list-group">
+            <li class="list-group-item">• <strong>Aminas:</strong> Su nombre termina en “-amina”. Por ejemplo, una amina simple sería llamada “metilamina”.</li>
+            <li class="list-group-item">• <strong>Nitrilos:</strong> Su nombre termina en “-nitrilo”, como en “acetonitrilo”.</li>
+          
+                <p>
+                    <video width="300px" controls >
+                        <source src="3.mp4" >
+                </p>
+                
+        </ul>
+        <video width="200px" controls >
+            <source src="4.mp4" >
+        
+        
+          
+
+
+        <h3 class="text-primary">Reacciones de las Aminas y los Nitrilos</h3>
+        <ul class="list-group">
+            <li class="list-group-item">• <strong>Aminas:</strong> Participan en reacciones de neutralización porque pueden actuar como bases, aceptando protones.</li>
+            <li class="list-group-item">• <strong>Nitrilos:</strong> Suelen participar en reacciones de hidrogenación, donde se convierten en aminas o en otras moléculas orgánicas útiles en la síntesis química.</li>
+        </ul>
+
+        <h3 class="text-secondary">Producción de Nitrilos</h3>
+        <p>Los nitrilos suelen producirse por deshidratación de amidas en un proceso controlado en la industria. Este método permite obtener nitrilos en grandes cantidades para diversas aplicaciones industriales.</p>
+
+        <h3 class="text-success">Ejemplos de Productos</h3>
+        <ul class="list-group">
+            <li class="list-group-item">• Las aminas se encuentran en productos desinfectantes, en cosméticos y en el cuerpo humano, como parte de algunos neurotransmisores.</li>
+            <li class="list-group-item">• Los nitrilos son comunes en la fabricación de solventes y ciertos tipos de plásticos.</li>
+        </ul>
+
+        <h3 class="text-warning">Relación entre Nitrilos y Amidas</h3>
+        <p>Los nitrilos pueden convertirse en amidas a través de procesos de hidrogenación, lo cual los hace útiles en la síntesis de compuestos orgánicos más complejos.</p>
+
+        <h3 class="text-danger">Reactividad y Estructura</h3>
+        <p>La polaridad tanto de las aminas como de los nitrilos les permite participar en una variedad de reacciones químicas. Esto hace que ambos compuestos sean útiles en la síntesis orgánica, donde se convierten en bloques de construcción para otros productos químicos.</p>
+
+        <h3 class="text-info">Importancia en Síntesis y Aplicaciones Industriales</h3>
+        <ul class="list-group">
+            <li class="list-group-item">• <strong>Aminas:</strong> Son básicos en la síntesis orgánica y se usan en la creación de polímeros, farmacéuticos y otros productos químicos.</li>
+            <li class="list-group-item">• <strong>Nitrilos:</strong> Son esenciales en productos industriales como plásticos y solventes, así como en síntesis química, ya que su estructura es versátil para la creación de nuevos compuestos.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="funciones-sociales" class="p-5 text-center" style="background-color: #ffffff;">
+    <div class="container">
+        <h2 class="section-header">Funciones Sociales de las Aminas y los Nitrilos</h2>
+        <p class="section-content">
+            Las aminas y los nitrilos tienen un impacto significativo en varias áreas de la sociedad, desde la medicina hasta la industria.
+            <br><br>
+            Las aminas, como compuestos orgánicos que pueden actuar como neurotransmisores, son fundamentales para el funcionamiento del sistema nervioso. Además, se utilizan en productos farmacéuticos que mejoran la calidad de vida de las personas.
+            <br><br>
+            Los nitrilos, por su parte, son esenciales en la fabricación de plásticos, que son parte integral de nuestra vida diaria, desde envases hasta componentes industriales. Además, los nitrilos se encuentran en ciertos medicamentos, lo que demuestra su relevancia en la ciencia médica y la química industrial.
+        </p>
+    </div>
+</section>
+
+
+<footer class="bg-dark text-white text-center p-3">
+    <!-- Sección de Redes Sociales -->
+<section id="redes-sociales" class="p-3 text-center" style="background-color: #20202000;">
+    <div class="container">
+        <!-- Íconos de redes sociales -->
+        <div>
+            <a href="https://www.instagram.com" target="_blank" style="color: white; margin: 10px;">
+                <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank" style="color: white; margin: 10px;">
+                <i class="fab fa-facebook fa-2x"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" style="color: white; margin: 10px;">
+                <i class="fab fa-twitter fa-2x"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Agregar el enlace a Font Awesome en el <head> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <p>&copy; Página de Sofia Cogollo sobre Amidas y Nitrilos</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
